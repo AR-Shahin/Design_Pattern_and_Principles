@@ -1,5 +1,6 @@
 <?php
 
+# Single Responsibility Principle
 // A class should have one and only one responsibility
 // A class should be responsible for a single task
 
