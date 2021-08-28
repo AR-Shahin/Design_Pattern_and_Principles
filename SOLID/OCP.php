@@ -10,12 +10,10 @@ class Square
 {
     public $length;
 }
-
 class Circle
 {
     public $radius;
 }
-
 class Triangle
 {
     public $base;
@@ -48,7 +46,6 @@ interface Shape
 {
     public function area();
 }
-
 class Square implements Shape
 {
     public $length;
@@ -57,7 +54,6 @@ class Square implements Shape
         return $this->length * $this->length;
     }
 }
-
 class Circle implements Shape
 {
     public $radius;
