@@ -12,8 +12,6 @@ interface File
     function parse();
     function htmlContent();
 }
-
-
 class JsonFile implements File
 {
     function parse()
@@ -31,19 +29,16 @@ interface File
 {
     function parse();
 }
-
 interface Html
 {
     function htmlContent();
 }
-
 class JsonFile implements File
 {
     function parse()
     {
     }
 }
-
 class HtmlFile implements Html
 {
     function htmlContent()

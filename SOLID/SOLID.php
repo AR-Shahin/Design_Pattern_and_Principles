@@ -1,6 +1,6 @@
 <?php
 
-# SOLID Introduction Acronym 
+# SOLID Introduction  
 
 // SOLID principles are the design principles that enable us manage most of the software design problems
 
